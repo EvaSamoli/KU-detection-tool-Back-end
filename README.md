@@ -8,9 +8,9 @@ Knowledge Units (KUs) are semantically meaningful code segments that encapsulate
 ## Description
 This project implements the backend API for an application designed to detect "Knowledge Units" (KU). It is built with Flask (Python) and provides endpoints for:
 
-Managing a list of Git repositories (Add, List, Edit, Delete).
-Fetching and storing commit information from repositories.
-Performing analysis on code files from specific commits using a pre-trained CodeBERT model.
-Monitoring the status and progress of the analysis process.
-Retrieving the analysis results (detected KUs).
-The backend interacts with a PostgreSQL database for data persistence and uses Git commands for cloning/updating repositories.
+- Managing a list of Git repositories (Add, List, Edit, Delete).
+- Fetching and storing commit information from repositories.
+- Performing analysis on code files from specific commits using a pre-trained CodeBERT model.
+- Monitoring the status and progress of the analysis process.
+- Retrieving the analysis results (detected KUs).
+- The backend interacts with a PostgreSQL database for data persistence and uses Git commands for cloning/updating repositories.
