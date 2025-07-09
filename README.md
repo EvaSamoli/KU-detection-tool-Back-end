@@ -13,4 +13,5 @@ This project implements the backend API for an application designed to detect "K
 - Performing analysis on code files from specific commits using a pre-trained CodeBERT model.
 - Monitoring the status and progress of the analysis process.
 - Retrieving the analysis results (detected KUs).
-- The backend interacts with a PostgreSQL database for data persistence and uses Git commands for cloning/updating repositories.
+
+The backend interacts with a PostgreSQL database for data persistence and uses Git commands for cloning/updating repositories.
